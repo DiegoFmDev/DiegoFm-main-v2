@@ -62,10 +62,10 @@ export default function App({ Component, pageProps, router }) {
           <div className="noise bg-noise"></div>
           <AnimatePresence mode="wait">
             <Head>
-              <title>Orlando Mina</title>
+              <title>Diego M.</title>
               <meta
                 name="description"
-                content="Orlando Mina personal website"
+                content="Diego Mamani personal website"
               />
               <meta
                 name="viewport"

@@ -78,7 +78,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Orlando Mina | Projects</title>
+        <title>Diego Mamani | Projects</title>
       </Head>
       <div className="hidden">
         <LanguagueCard />
@@ -401,6 +401,7 @@ function ProjectCard({ project, index }) {
             onLoad={() => setIsLoaded(true)}
             width={1280}
             height={720}
+            alt="no se "
           />
         </motion.div>
         <p className="text-xl font-bold">

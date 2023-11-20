@@ -1,17 +1,12 @@
 {
   "title": "| Desarrollador Frontend",
-  "spotify": {
-    "current": "Escuchado recientemente"
-  },
+  
   "loading": "Cargando...",
   "online": {
     "online": "En línea",
     "offline": "Desconectado",
     "dnd": "Ocupado",
     "since": "Desde"
-  },
-  "chat": {
-    "greeting": "Hola, soy el clon de Orlando, ¿que quieres saber de mi?"
   },
   "birthday": {
     "age": "edad",
@@ -33,8 +28,7 @@
     "courses": "Cursos"
   },
   "certificates": {
-    "enlvl": "Nivel de inglés",
-    "platzi": "Desarrollador full stack con javascript"
+    "enlvl": "Nivel de inglés"    
   },
   "functions": {
     "changeLanguage": "Cambiar idioma",

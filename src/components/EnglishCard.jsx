@@ -7,18 +7,18 @@ export default function EnglishCard() {
   
   return (
     <a
-      href="https://www.efset.org/cert/Y5Zk3T"
+      href="https://www.efset.org/cert/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-white relative rounded-3xl flex overflow-hidden aspect-square shadow-sm bg-[#2ab9adb9] p-4 justify-center items-center hover:scale-[103%] transition duration-500 ease-in-out cursor-pointer"
     >
       <MdOpenInNew className="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white dark:text-[#ffffffaa]"/>
       <div className="">
-        <div className="flex justify-center items-center flex-col">
-          <p className="text-xs hidden md:block md:text-lg text-center uppercase font-base">
+        <div className="flex justify-center items-center flex-col h-screen">
+          <p className="text-xs hidden md:block md:text-lg text-center uppercase font-base whitespace-nowrap">
             {t("certificates.enlvl")}
           </p>
-          <p className="text-4xl md:text-9xl font-bold">B2</p>
+          <p className="text-4xl md:text-8xl font-bold">A1</p>
           <p className="text-xs md:text-xl uppercase font-semibold text-center">
             EF SET
           </p>

@@ -9,26 +9,44 @@ export default function TimeCard() {
     axios.get(url).then((res) => res.data)
   );
 
-  const [sunriseTime, sunsetTime] = useMemo(() => {
-    if (!data) return [null, null];
+  // const [sunriseTime, sunsetTime] = useMemo(() => {
+  //   if (!data) return [null, null];
 
-    return [new Date(data.results.sunrise), new Date(data.results.sunset)];
-  }, [data]);
+  //   return [new Date(data.results.sunrise), new Date(data.results.sunset)];
+  // }, [data]);
 
-  const timeComponent = useMemo(() => {
-    if (!data) return null;
+  // const timeComponent = useMemo(() => {
+  //   if (!data) return null;
 
+  //   if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
+  //     return <NightComponent />;
+  //   }
+
+  //   if (isAfter(new Date(), sunriseTime)) {
+  //     return <DayComponent />;
+  //   }
+
+  //   return <NightComponent />;
+  // }, [data, sunriseTime, sunsetTime]);
+  
+  const [sunriseTime, sunsetTime, timeComponent] = useMemo(() => {
+    if (!data) return [null, null, null];
+  
+    const sunriseTime = new Date(data.results.sunrise);
+    const sunsetTime = new Date(data.results.sunset);
+  
+    let timeComponent;
     if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
-      return <NightComponent />;
+      timeComponent = <NightComponent />;
+    } else if (isAfter(new Date(), sunriseTime)) {
+      timeComponent = <DayComponent />;
+    } else {
+      timeComponent = <NightComponent />;
     }
-
-    if (isAfter(new Date(), sunriseTime)) {
-      return <DayComponent />;
-    }
-
-    return <NightComponent />;
+  
+    return [sunriseTime, sunsetTime, timeComponent];
   }, [data]);
-
+  
   return (
     <div className={`rounded-3xl flex relative overflow-hidden col-span-2`}>
       {timeComponent}

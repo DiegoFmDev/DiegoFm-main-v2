@@ -28,13 +28,13 @@ export default function AboutCard() {
         <p className="text-md md:text-lg lg:text-2xl text-white">
           {i18n.language === "es" ? (
             <>
-              Soy <b>Systems Engineer</b> con experiencia en <b>React</b>.
+              Soy <b>Ingeniero en Sistemas</b> con experiencia en <b>React</b>.
               Soy bueno en <b>CSS</b> y <b>HTML</b>, así como en{" "}
               <b>JavaScript.</b> Me encanta aprender cosas nuevas y experimentar con nuevas tecnologías.
             </>
           ) : (
             <>
-              I am a <b>Ingeniero en Sistemas</b> with experience in <b>React</b>.
+              I am a <b>Systems Engineer</b> with experience in <b>React</b>.
               I&apos;m good at <b>HTML</b> and <b>CSS</b>, as well as{" "}
               <b>JavaScript</b>. I love learning new things and experimenting with new technologies.
             </>

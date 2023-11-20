@@ -14,14 +14,13 @@ export default function NightComponent() {
 
   const [time, setTime] = useState("");
 
-  const formatter = new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Bogota",
+  useEffect(() => {
+    const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/La_Paz",
     hour12: true,
     hour: "numeric",
     minute: "numeric",
   });
-
-  useEffect(() => {
     const interval = setInterval(() => {
       setTime(formatter.format(new Date()));
     }, 1000);

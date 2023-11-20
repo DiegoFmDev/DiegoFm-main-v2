@@ -1,8 +1,6 @@
 {
   "title": "| Frontend Developer",
-  "spotify": {
-    "current": "Recently listened"
-  },
+  
   "loading": "Loading...",
   "online": {
     "online": "Online",
@@ -33,8 +31,7 @@
     "courses": "Courses"
   },
   "certificates": {
-    "enlvl": "English level",
-    "platzi": "Full Stack Developer with javascript"
+    "enlvl": "English level"    
   },
   "functions": {
     "changeLanguage": "Change language",
