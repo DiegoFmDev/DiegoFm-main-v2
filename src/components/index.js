@@ -12,7 +12,7 @@ import NightComponent from "./NightComponent";
 import ProjectsCard from "./ProjectsCard";
 import LinkedinCard from "./LinkedinCard";
 import EnglishCard from "./EnglishCard";
-import ExpCard from "./ExpCard";
+// import ExpCard from "./ExpCard";
 import ProjectLoader from "./ProjectLoader";
 import Loader from "./Loader";
 
@@ -31,7 +31,7 @@ export {
   ProjectsCard,
   LinkedinCard,
   EnglishCard, 
-  ExpCard,
+  // ExpCard,
   ProjectLoader,
   Loader,
 };

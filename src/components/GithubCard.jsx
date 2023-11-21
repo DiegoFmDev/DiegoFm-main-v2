@@ -24,7 +24,7 @@ export default function GithubCard() {
           alt=""
           loading="lazy"
         />
-        <MdOpenInNew className="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white dark:text-[#ffffffaa]"/>
+        <MdOpenInNew className="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white dark:text-[#ffffffaa]" />
         <div className="w-full h-full flex flex-col justify-between">
           <SiGithub
             color="white"
