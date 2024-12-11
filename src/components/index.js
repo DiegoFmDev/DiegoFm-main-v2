@@ -12,11 +12,7 @@ import NightComponent from "./NightComponent";
 import ProjectsCard from "./ProjectsCard";
 import LinkedinCard from "./LinkedinCard";
 import EnglishCard from "./EnglishCard";
-<<<<<<< HEAD
 import ExpCard from "./ExpCard";
-=======
-// import ExpCard from "./ExpCard";
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
 import ProjectLoader from "./ProjectLoader";
 import Loader from "./Loader";
 
@@ -35,11 +31,7 @@ export {
   ProjectsCard,
   LinkedinCard,
   EnglishCard, 
-<<<<<<< HEAD
   ExpCard,
-=======
-  // ExpCard,
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   ProjectLoader,
   Loader,
 };

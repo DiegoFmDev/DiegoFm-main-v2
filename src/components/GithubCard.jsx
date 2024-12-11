@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React from "react";
-=======
-import React, { useEffect } from "react";
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
 import Image from "next/image";
 import { SiGithub } from "react-icons/si";
 import { useTranslation } from "react-i18next";
@@ -14,11 +10,7 @@ export default function GithubCard() {
   const [t, i18n] = useTranslation("global");
   return (
     <a
-<<<<<<< HEAD
       href="https://github.com/DiegoFmDev/"
-=======
-      href=""
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
       target="_blank"
       rel="noopener noreferrer"
       className=" rounded-3xl col-span-2 overflow-hidden cursor-pointer hover:scale-[103%] transition duration-300 ease-in-out"

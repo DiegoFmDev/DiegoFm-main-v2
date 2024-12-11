@@ -1,10 +1,6 @@
 {
   "title": "| Frontend Developer",
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   "loading": "Loading...",
   "online": {
     "online": "Online",
@@ -12,22 +8,12 @@
     "dnd": "Busy",
     "since": "Since"
   },
-<<<<<<< HEAD
-=======
-  "chat": {
-    "greeting": "Hi, I'm Orlando's clone, what do you want to know about me?"
-  },
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   "birthday": {
     "age": "age",
     "years-old": "years old",
     "time": "days to my birthday"
   },
-<<<<<<< HEAD
   "github": "My Github profile. ",
-=======
-  "github": "My Github profile, where I upload my projects.",
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   "projectsandtest": {
     "title": "Projects",
     "description": "Here will be some of my projects, tests or experiments."
@@ -51,8 +37,4 @@
     "noEnergy": "Give me energy"
   },
   "exp": "years of experience"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8

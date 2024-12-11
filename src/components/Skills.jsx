@@ -24,19 +24,11 @@ export default function Skills() {
       <SiJavascript />
       <SiReact />
       <SiNextdotjs />
-<<<<<<< HEAD
       {/* <SiElectron /> */}
       <SiTailwindcss />
       {/* <SiNodedotjs /> */}
       {/* <DiJava /> */}
       {/* <SiFirebase /> */}
-=======
-      <SiElectron />
-      <SiTailwindcss />
-      <SiNodedotjs />
-      <DiJava />
-      <SiFirebase />
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
       <SiFlutter />
       <SiGit/>
     </div>

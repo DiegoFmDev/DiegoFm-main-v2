@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-<<<<<<< HEAD
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
  
-=======
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
 
 :root {
   --background-light: #f5f5f5;

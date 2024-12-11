@@ -6,11 +6,7 @@ export default function LinkedinCard() {
   return (
     <a
       href=""
-<<<<<<< HEAD
       // target="_blank"
-=======
-      target="_blank"
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
       rel="noopener noreferrer"
       aria-label="Linkedin"
       className="flex flex-col justify-center items-center bg-[#1178ff9c] dark:bg-[#49a7ff56] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer hover:scale-[103%] transition duration-300 ease-in-out"

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Proyecto: **Diego Mamani | Portfolio Personal**
 
 Bienvenido al repositorio de mi **Portfolio Personal**, donde muestro mis habilidades y proyectos en desarrollo web. Este proyecto está diseñado para resaltar mi experiencia con tecnologías como **React**, **Next.js**, **Tailwind CSS**, y otras herramientas que uso para crear experiencias web dinámicas.
@@ -21,6 +20,3 @@ Este proyecto utiliza varias tecnologías y herramientas modernas para crear una
 - **Tailwind CSS**: Utilizado para la creación de un diseño limpio y responsivo sin escribir CSS tradicional.
 - **SWR**: Hook para hacer solicitudes de datos de forma eficiente y optimizada.
 - **Framer Motion**: Para animaciones interactivas que mejoran la experiencia de usuario.
-=======
-personal portfolio 
->>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
