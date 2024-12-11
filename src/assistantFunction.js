@@ -6,4 +6,8 @@ async function getCurrentWeather(location) {
   return response;
 }
 
+<<<<<<< HEAD
 export { getCurrentWeather };
+=======
+export { getCurrentWeather };
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8

@@ -15,6 +15,11 @@ export default function DayComponent() {
 
   const [time, setTime] = useState("");
 
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   useEffect(() => {
     const formatter = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/La_Paz",

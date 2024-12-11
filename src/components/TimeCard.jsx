@@ -9,6 +9,7 @@ export default function TimeCard() {
     axios.get(url).then((res) => res.data)
   );
 
+<<<<<<< HEAD
   const [sunriseTime, sunsetTime] = useMemo(() => {
     if (!data) return [null, null];
 
@@ -29,9 +30,53 @@ export default function TimeCard() {
     return <NightComponent />;
   }, [sunriseTime, sunsetTime]);
 
+=======
+  // const [sunriseTime, sunsetTime] = useMemo(() => {
+  //   if (!data) return [null, null];
+
+  //   return [new Date(data.results.sunrise), new Date(data.results.sunset)];
+  // }, [data]);
+
+  // const timeComponent = useMemo(() => {
+  //   if (!data) return null;
+
+  //   if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
+  //     return <NightComponent />;
+  //   }
+
+  //   if (isAfter(new Date(), sunriseTime)) {
+  //     return <DayComponent />;
+  //   }
+
+  //   return <NightComponent />;
+  // }, [data, sunriseTime, sunsetTime]);
+  
+  const [sunriseTime, sunsetTime, timeComponent] = useMemo(() => {
+    if (!data) return [null, null, null];
+  
+    const sunriseTime = new Date(data.results.sunrise);
+    const sunsetTime = new Date(data.results.sunset);
+  
+    let timeComponent;
+    if (isAfter(new Date(), add(sunsetTime, { hours: 1 }))) {
+      timeComponent = <NightComponent />;
+    } else if (isAfter(new Date(), sunriseTime)) {
+      timeComponent = <DayComponent />;
+    } else {
+      timeComponent = <NightComponent />;
+    }
+  
+    return [sunriseTime, sunsetTime, timeComponent];
+  }, [data]);
+  
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   return (
     <div className={`rounded-3xl flex relative overflow-hidden col-span-2`}>
       {timeComponent}
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8

@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "next lint"
+=======
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   },
   "dependencies": {
     "@mendable/search": "^0.0.137",
@@ -17,12 +22,20 @@
     "date-fns": "^2.29.3",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+<<<<<<< HEAD
     "firebase": "^11.0.2",
+=======
+    "firebase": "^9.20.0",
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
     "framer-motion": "^10.11.2",
     "i18next": "^22.4.14",
     "js-cookie": "^3.0.5",
     "moment": "^2.29.4",
+<<<<<<< HEAD
     "next": "^15.0.3",
+=======
+    "next": "^13.5.6",
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
     "next-sitemap": "^4.1.8",
     "next-themes": "^0.2.1",
     "openai": "^4.19.0",
@@ -33,14 +46,24 @@
     "react-icons": "^4.8.0",
     "rss-parser": "^3.13.0",
     "sharp": "^0.32.6",
+<<<<<<< HEAD
+=======
+    "spotify-web-api-node": "^5.0.2",
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
     "swiper": "^9.2.0",
     "swr": "^2.1.2",
     "typewriter-effect": "^2.19.0",
     "use-count-up": "^3.0.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16"
+=======
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   }
 }

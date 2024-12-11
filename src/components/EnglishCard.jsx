@@ -3,7 +3,11 @@ import { useTranslation } from "react-i18next";
 import { MdOpenInNew } from "react-icons/md";
 
 export default function EnglishCard() {
+<<<<<<< HEAD
   const [t] = useTranslation("global");
+=======
+  const [t, i18n] = useTranslation("global");
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
   
   return (
     <a

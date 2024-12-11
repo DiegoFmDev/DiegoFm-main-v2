@@ -5,8 +5,13 @@ import { MdOpenInNew } from "react-icons/md";
 export default function TwitterCard() {
   return (
     <a
+<<<<<<< HEAD
       href=""
       // target="_blank"
+=======
+      href=" "
+      target="_blank"
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
       rel="noopener noreferrer"
       aria-label="Twitter"
       className="flex flex-col justify-center items-center bg-[#000000d8] dark:bg-[#242424c0] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer hover:scale-[103%] transition duration-300 ease-in-out"

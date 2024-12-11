@@ -11,7 +11,11 @@ export default function ProjectsCard() {
   const [t, i18n] = useTranslation("global");
   return (
     <Link
+<<<<<<< HEAD
       href="/projects"
+=======
+      href=""
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
       scroll={false}
       className="relative rounded-3xl col-span-2 md:aspect-auto overflow-hidden hover:scale-[103%] transition duration-500 ease-in-out"
     >
@@ -20,7 +24,11 @@ export default function ProjectsCard() {
         <h2 className="font-bold text-md md:text-xl lg:text-4xl">
           {t("projectsandtest.title")}
         </h2>
+<<<<<<< HEAD
         <p className="font-base text-xs md:text-md lg:text-2xl md:w-4/5 lg:w-5/6 lg:mt-4">
+=======
+        <p className="font-base text-xs md:text-2xl lg:text-2xl md:w-4/5 lg:w-5/6 lg:mt-4">
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
           {t("projectsandtest.description")}
         </p>
       </div>

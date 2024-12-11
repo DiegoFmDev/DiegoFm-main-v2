@@ -33,6 +33,25 @@ export default function App({ Component, pageProps, router }) {
   return (
     <>
       <Script
+<<<<<<< HEAD
+=======
+        id="google-analytics"
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script id="google-analytics-2" strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+        page_path: window.location.pathname,
+        });
+    `}
+      </Script>
+      <Script
+>>>>>>> 44057b2ccdfbde00950ac00fb6d4f4b3edb214d8
         src="https://kit.fontawesome.com/00a734f883.js"
         crossorigin="anonymous"
       ></Script>
